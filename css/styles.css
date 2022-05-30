@@ -1,7 +1,63 @@
 body {
-    background-color: red;
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    color: yellow
+a {
+  text-decoration-color: none;
+  color: red;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+#container {
+  background-color: grey;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: green;
+  color: blue;
+  border-radius: 30px;
+  border-style: ridge;
+  text-align: center;
+}
+
+#content {
+  padding: 10px;
+}
+
+#myprojects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#myprojects {
+  padding: 10px;
+  width: 180px;
+  float: left;
+}
+
+#myprojects .selected {
+  font-weight: bold;
+}
+
+#aboutme {
+  width: 600px;
+  float: right;
+}
+
+#contactme {
+  clear: both;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
